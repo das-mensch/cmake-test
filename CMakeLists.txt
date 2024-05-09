@@ -6,7 +6,7 @@ add_subdirectory(lib)
 
 add_executable(${PROJECT_NAME} main.c)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC libdasmensch)
+target_link_libraries(${PROJECT_NAME} PUBLIC libdasmenschcommon)
 
 target_include_directories(
   ${PROJECT_NAME} PUBLIC
